@@ -7,12 +7,12 @@ $alertColor:#262626;
 .account-2019{
 	font-family:$font;
 	header{
-		position:relative;
+		// position:relative;
 	}
 
 	main.pageMain{
 		header{
-			position:initial!important
+			position:relative!important
 		}
 
 		.content{
