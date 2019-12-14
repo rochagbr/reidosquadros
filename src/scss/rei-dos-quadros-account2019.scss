@@ -1,0 +1,171 @@
+$font:"Arial";
+$btnBg:#262626;
+$btnSecondaryBg:#97989A;
+$corLinks:#262626;
+$alertColor:#262626;
+
+.account-2019{
+	font-family:$font;
+	header{
+		position:relative;
+	}
+
+	main.pageMain{
+		header{
+			position:initial!important
+		}
+
+		.content{
+			display:table;
+			width:100%;
+			max-width:1290px;
+			margin-right:auto;
+			margin-left:auto;
+		}
+	}
+
+	.x-big-text.x-fw{
+		display:none;
+	}
+
+	// SIDEBAR
+	.vtex-account__user-greeting{
+		color:$corLinks;
+		font-weight:300;
+		text-transform:uppercase;
+	}
+	.vtex-account__user-image{
+		.bg-action-primary.br-100.f4.bn.pointer{
+			padding:0 3px;
+			letter-spacing:0;
+		}
+	}
+	.bg-action-primary,{
+		background:$btnBg;
+	}
+	.b--action-primary{
+		border-color:$btnBg;
+	}
+	.vtex-account_menu-link{
+		text-transform:uppercase;
+	}
+
+
+	// ACCOUNT
+	.vtex-pageHeader__container.pa5.pa7-ns{
+		padding-bottom:0;
+	}
+	.bw1{
+		border-width:1px;
+	}
+	.br2{
+		border-radius:0 !important;
+		-webkit-border-radius:0 !important;
+		-ms-border-radius:0 !important;
+		-moz-border-radius:0 !important;
+	}
+	.vtex-pageHeader-link__container{
+		span{
+			.mr3 svg{
+				fill:$corLinks;
+			}
+			font-weight:600;
+			text-decoration:underline;
+			color:$corLinks;
+		}
+	}
+	.c-action-primary{
+		color:$corLinks;
+	}
+	.vtex-pageHeader__title{
+		text-transform:uppercase;
+	}
+	.vtex-profile-form__profile-summary{
+		text-transform:uppercase;
+	}
+	.mb8{
+		label{
+			font-size:14px;
+			font-weight:600;
+			margin-bottom:12px;
+		}
+		div{
+			font-size:14px;
+			font-weight:500;
+		}
+	}
+	footer{
+		div.flex.items-center.h-100.pv2.ph5{
+			font-weight:600;
+			text-decoration:underline;
+		}
+	}
+
+
+ 	// ADICIONAR ou EDITAR ENDEREÇO
+ 	.vtex-account__address-create{
+ 		.vtex-button.bw1.pa0{
+ 			padding:8px 0;
+ 			div{
+ 				font-size:16px;
+ 				font-weight:600;
+ 				letter-spacing:0;
+ 			}
+ 		}
+ 		.address-summary{
+ 			.c-link{
+ 				color:$corLinks;
+ 				text-decoration:underline;
+ 			}
+ 		}
+ 		.vtex-address-form__postalCode{
+ 			button{
+ 				.items-center.pv2.ph5{
+ 					font-size:14px;
+ 					font-weight:600;
+ 					text-decoration:underline;
+ 				}
+ 			}
+ 		}
+ 	}
+ 	.vtex-account__address-create .vtex-button.bw1.pa0{
+ 		width:auto;
+ 		padding:8px 24px;
+ 	}
+ 	
+ 	.vtex-account__address-edit {
+ 		main.ph7.pv6{
+ 			.vtex-button.bw1.ba.fw5{
+ 				display:inline-block;
+ 				width:auto;
+ 				padding:8px 12px;
+ 				margin-right:24px;
+ 			}
+ 			div.mt5{
+ 				display:inline-block;
+ 				button{
+ 					background:$btnSecondaryBg;
+ 					border:none;
+ 				}
+ 			}
+ 		}
+ 	}
+
+ 	// PEDIDOS e PAYMENTS
+ 	.vtex-account__orders-list,.vtex-account__cards-list{
+ 		padding-top:0;
+ 		.t-heading-3.mt0{
+ 			.c-on-base{
+ 				font-weight:400;
+ 			}
+ 		}
+ 	}
+ 	.myo-order-card{
+ 		margin-top:0;
+ 	}
+
+ 	.c-danger{
+ 		color:$alertColor;
+ 	}
+
+}
