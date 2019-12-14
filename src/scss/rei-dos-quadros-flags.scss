@@ -1,0 +1,50 @@
+body{
+  .shelf-product__anchor{
+    .flags{
+      p.flag{
+        &.black-friday-1, &.black-friday-2, &.black-friday-3{
+          font-size:0;
+          display:block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 60px;
+          height: 60px;
+          background: linear-gradient(135deg, #C4111C 50%, transparent 50%);
+          white-space:pre;
+          padding: 2% 0 0 2%;
+  
+          &:before{
+            
+            text-transform: uppercase;
+            font-family: Roboto,Helvetica,Arial,sans-serif;
+            word-break: break-word;
+            font-size:12px;
+            line-height:12px;
+            font-weight:bold;
+            color:#fff;
+            display: flex;
+            text-align: left;
+          }
+        }
+
+        &.black-friday-1{
+          &:before{
+            content:'50% \A Off';
+          }
+        }
+
+        &.black-friday-2{
+          &:before{
+            content:'30% \A Off';
+          }
+        }
+        &.black-friday-3{
+          &:before{
+            content:'25% \A Off';
+          }
+        }
+      }
+    }
+  }
+}
