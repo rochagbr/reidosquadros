@@ -1,12 +1,12 @@
 {
-  "name": "jbfm",
+  "name": "reidosquadros",
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
     "deploy": "git subtree push --prefix public origin gh-pages",
     "dev": "gulp"
   },
-  "repository": "https://github.com/rochagbr/jbfm.git",
+  "repository": "https://github.com/rochagbr/reidosquadros.git",
   "author": "Gabriel <gbrrochagbr@gmail.com>",
   "license": "MIT",
   "devDependencies": {
