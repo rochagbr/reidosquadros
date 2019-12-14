@@ -1,0 +1,21 @@
+body.stable{
+  .box-wpp{
+    display:flex!important;
+    align-items:center;
+    justify-content: center;
+    position: fixed;
+    left:10px;
+    bottom:10px;
+    z-index:10;
+
+    a{
+      width:55px;
+      height:55px;
+      border-radius: 50%;
+      // background-color:#1DD741;
+      background:#1DD741 url(/arquivos/whatsappIcon.png) no-repeat;
+      background-position: center;
+      background-size:86%;
+    }
+  }
+}
