@@ -1,8 +1,8 @@
 $font:"Arial";
-$btnBg:#262626;
+$btnBg:#C4111C;
 $btnSecondaryBg:#97989A;
 $corLinks:#262626;
-$alertColor:#262626;
+$alertColor:#FFCCCC;
 
 .account-2019{
 	font-family:$font;
@@ -40,7 +40,7 @@ $alertColor:#262626;
 			letter-spacing:0;
 		}
 	}
-	.bg-action-primary,{
+	.bg-action-primary{
 		background:$btnBg;
 	}
 	.b--action-primary{
