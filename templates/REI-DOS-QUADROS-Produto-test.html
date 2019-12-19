@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="pt-br">
+  <head>
+    <title>Rei dos Quadros</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Teko" rel="stylesheet" type="text/css"/>
+    <vtex:template id="REI-DOS-QUADROS-Favicons" />
+    <vtex:metaTags />
+    <vtex:template id="REI-DOS-QUADROS-Head-Scripts" />
+    <!-- <link rel="stylesheet" href="/arquivos/rei-dos-quadros-v6.css" /> -->
+  </head>
+  <body class="produto is-logged-out"><vtex:template id="REI-DOS-QUADROS-Header" /><vtex:template id="REI-DOS-QUADROS-Menu-Mobile-v2" /><vtex:template id="REI-DOS-QUADROS-Menu-v2" />
+    <div class="searchform-component visible-xs">
+    </div>
+    <div class="container">
+    <!-- <vtex.cmc:HightLight/>
+        <vtex.cmc:discountHightLight/> -->
+      <div id="product-component"></div>
+      <section class="product__shelf">
+        <vtex:contentPlaceHolder id="Quadros Relacionados" />
+        <div class="prodSmart-quem-viu">
+            <h4 class="crown-title">Quem viu, viu também</h4>
+            <vtex:contentPlaceHolder id="Quem-viu-viu-tambem" />
+        </div>
+        <div class="prodSmart-quem-comprou">
+            <h4 class="crown-title">Quem comprou, comprou também</h4>
+            <vtex:contentPlaceHolder id="Quem-comprou-comprou-tambem" />
+        </div>
+      </section>
+    </div>
+    <vtex:template id="REI-DOS-QUADROS-Newsletter-v2" />
+    <vtex:template id="REI-DOS-QUADROS-Footer" />
+    <script src="/arquivos/rei-dos-quadros-v8.js"></script>
+  </body>
+</html>
