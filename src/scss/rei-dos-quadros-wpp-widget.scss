@@ -22,4 +22,12 @@ body {
       background-size: 86%;
     }
   }
+
+  &.produto{
+    @media screen and (max-width:768px){
+      .box-wpp{
+        bottom:80px;
+      }
+    }
+  }
 }
